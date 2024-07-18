@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'BDWebKitToB placeholder'
 
   s.homepage         = 'https://github.com/zhangyuanshu/BDWebKitToB'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,6 +27,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.user_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
 
   s.source_files = 'BDWebKitToB/Classes/**/*'
   

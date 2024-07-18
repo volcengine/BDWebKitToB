@@ -1,0 +1,22 @@
+{
+  "name": "BDWebKitToB",
+  "version": "0.1.0",
+  "summary": "A short description of BDWebKitToB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangyuanshu/BDWebKitToB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangyuanshu": "zhangyuanshu@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangyuanshu/BDWebKitToB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BDWebKitToB/Classes/**/*"
+}
