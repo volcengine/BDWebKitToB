@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BDWebKitToB_Example' do
+  pod 'BDWebKitToB', :path => '../'
+
+  target 'BDWebKitToB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
